@@ -1,4 +1,4 @@
-building-blocks.com
+sub-atoms.com
 ===================
 
-Building Blocks site.
+sub-atoms is a CSS framework that extends the <a href="http://bradfrostweb.com/blog/post/atomic-web-design/">Atomic Design</a> methodology to the sub-atomic level.
