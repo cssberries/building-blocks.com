@@ -1,0 +1,27 @@
+{
+  "name": "subatomic",
+  "version": "0.1.0",
+  "authors": [
+    "Yegeniy Belov"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "homepage": "git@github.com:cssberries/subatomic.git",
+  "description": "CSS framework.",
+  "main": "subatomic.less",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "css"
+  ],
+  "devDependencies": {
+    "sub-atoms": "master"
+  }
+}
