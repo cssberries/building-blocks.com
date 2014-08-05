@@ -55,8 +55,7 @@ module.exports = function(grunt) {
                 options: {
                     paths: ['less'],
                     sourceMap: true,
-                    cleancss: false,
-                    banner: 'test'
+                    cleancss: false
                 },
                 files: {
                     'build/css/style-v<%= pkg.version %>.min.css': 'src/less/main.less'
@@ -139,7 +138,7 @@ module.exports = function(grunt) {
                 spawn: true,
             },
             less: {
-                files: ['src/less/**/*'],
+                files: ['src/less/**/*','vendor/sub-atoms/**/*.less'],
                 tasks: [
                     'less'
                 ],
